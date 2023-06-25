@@ -1,2 +1,0 @@
-# sumativa2
-repositorio

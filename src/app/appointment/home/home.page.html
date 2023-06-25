@@ -1,19 +1,20 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Doctors App
+      Soccer Fields
     </ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content>
   <ion-list class="ios list-ios hydrated">
     <ion-list-header class="ios hydrated">
-      Appointments
+      All Soccer Fields
     </ion-list-header>
     <ion-item class="user-list">
       <ion-label>
-        <h5><ion-icon name="person"></ion-icon>Joan Toro</h5>
-        <p><ion-icon name="call"></ion-icon>+56974956096</p>
+        <h4>Soccer Field 1</h4>
+        <h5><ion-icon name="person"></ion-icon>-------</h5>
+        <p><ion-icon name="call"></ion-icon>-------</p>
       </ion-label>
       <div class="item-note" item-end>
         <button ion-button clear [routerLink]="['/edit-appointment/']">
@@ -26,8 +27,69 @@
     </ion-item>
     <ion-item class="user-list">
       <ion-label>
-        <h5><ion-icon name="person"></ion-icon>Juan Lopez</h5>
-        <p><ion-icon name="call"></ion-icon>+5691234567</p>
+        <h4>Soccer Field 2</h4>
+        <h5><ion-icon name="person"></ion-icon>Francisco Radrigan</h5>
+        <p><ion-icon name="call"></ion-icon>+56987789563</p>
+      </ion-label>
+      <div class="item-note" item-end>
+        <button ion-button clear [routerLink]="['/edit-appointment/']">
+          <ion-icon name="create" style="zoom:2.0"></ion-icon>
+        </button>
+        <button ion-button clear>
+          <ion-icon name="trash" style="zoom:2.0"></ion-icon>
+        </button>
+      </div>
+    </ion-item>
+    <ion-item class="user-list">
+      <ion-label>
+        <h4>Soccer Field 3</h4>
+        <h5><ion-icon name="person"></ion-icon>-------</h5>
+        <p><ion-icon name="call"></ion-icon>-------</p>
+      </ion-label>
+      <div class="item-note" item-end>
+        <button ion-button clear [routerLink]="['/edit-appointment/']">
+          <ion-icon name="create" style="zoom:2.0"></ion-icon>
+        </button>
+        <button ion-button clear>
+          <ion-icon name="trash" style="zoom:2.0"></ion-icon>
+        </button>
+      </div>
+    </ion-item>
+    <ion-item class="user-list">
+      <ion-label>
+        <h4>Soccer Field 4</h4>
+        <h5><ion-icon name="person"></ion-icon>-------</h5>
+        <p><ion-icon name="call"></ion-icon>-------</p>
+      </ion-label>
+      <div class="item-note" item-end>
+        <button ion-button clear [routerLink]="['/edit-appointment/']">
+          <ion-icon name="create" style="zoom:2.0"></ion-icon>
+        </button>
+        <button ion-button clear>
+          <ion-icon name="trash" style="zoom:2.0"></ion-icon>
+        </button>
+      </div>
+    </ion-item>
+    <ion-item class="user-list">
+      <ion-label>
+        <h4>Soccer Field 5</h4>
+        <h5><ion-icon name="person"></ion-icon>-------</h5>
+        <p><ion-icon name="call"></ion-icon>-------</p>
+      </ion-label>
+      <div class="item-note" item-end>
+        <button ion-button clear [routerLink]="['/edit-appointment/']">
+          <ion-icon name="create" style="zoom:2.0"></ion-icon>
+        </button>
+        <button ion-button clear>
+          <ion-icon name="trash" style="zoom:2.0"></ion-icon>
+        </button>
+      </div>
+    </ion-item>
+    <ion-item class="user-list">
+      <ion-label>
+        <h4>Soccer Field 6</h4>
+        <h5><ion-icon name="person"></ion-icon>Ricardo Barraza</h5>
+        <p><ion-icon name="call"></ion-icon>+56912130418</p>
       </ion-label>
       <div class="item-note" item-end>
         <button ion-button clear [routerLink]="['/edit-appointment/']">
@@ -43,11 +105,11 @@
   <ion-tab-bar slot="bottom">
     <ion-tab-button routerLinkActive="tab-selected" routerLink="['/appointment/home-appointment']" class="ios" tab="home">
       <ion-icon name="list-box"></ion-icon>
-      <ion-label>Appointments</ion-label>
+      <ion-label>My reservation</ion-label>
     </ion-tab-button>
     <ion-tab-button routerLinkActive="tab-selected" routerLink="['/appointment/make-appointment']" class="ios" tab="make-appointment">
       <ion-icon name="add-circle"></ion-icon>
-      <ion-label>Book Appointment</ion-label>
+      <ion-label>Reserve soccer field</ion-label>
     </ion-tab-button>
   </ion-tab-bar>
 </ion-tabs>
